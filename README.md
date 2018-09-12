@@ -2,8 +2,14 @@
 A Google Apps Script for Creating Filters
 
 ## Usage
-1. Set this script to run every 10 minutes.
-2. Label an email in your gmail inbox as: `filter`
+1. Go to Google Apps Script Editer and click the `Trigger` icon (it looks like a clock and is immediately to the right of the `save` button and to the left of the `run` button.
+[![Screen_Shot_2018-09-12_at_9.32.16_AM.png](https://s22.postimg.cc/dvxkujnqp/Screen_Shot_2018-09-12_at_9.32.16_AM.png)](https://postimg.cc/image/ctnec04x9/)
+
+2. Click `No triggers set up. Click here to add one now.`
+[![Screen_Shot_2018-09-12_at_9.31.55_AM.png](https://s22.postimg.cc/iul39bc6p/Screen_Shot_2018-09-12_at_9.31.55_AM.png)](https://postimg.cc/image/3lv5vjii5/)
+
+3. Set up the script to run at whatever interval feels right to you. I recommend every 5 minutes.
+[![Screen_Shot_2018-09-12_at_9.32.16_AM.png](https://s22.postimg.cc/dvxkujnqp/Screen_Shot_2018-09-12_at_9.32.16_AM.png)](https://postimg.cc/image/ctnec04x9/)
 
 ## About
 When run, this script will go through your inbox and find all threads labeled 'filter'.
