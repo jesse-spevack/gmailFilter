@@ -11,7 +11,9 @@ A Google Apps Script for Creating Filters
 3. Set up the script to run at whatever interval feels right to you. I recommend every 5 minutes.
 [![Screen_Shot_2018-09-12_at_9.32.16_AM.png](https://s22.postimg.cc/dvxkujnqp/Screen_Shot_2018-09-12_at_9.32.16_AM.png)](https://postimg.cc/image/ctnec04x9/)
 
-Now, set up a label in gmail called `filter`. When you apply this label on a new message, the script will create a filter to move the message and subsequent messages from the same sender out of your inbox (archive / mark as read).
+4. Enable [Advanced Gmail Service](https://developers.google.com/apps-script/advanced/gmail)
+
+5. Now, set up a label in gmail called `filter`. When you apply this label on a new message, the script will create a filter to move the message and subsequent messages from the same sender out of your inbox (archive / mark as read).
 
 ## About
 When run, this script will go through your inbox and find all threads labeled 'filter'.
